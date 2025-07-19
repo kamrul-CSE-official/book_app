@@ -1,3 +1,4 @@
+import 'package:book_app/components/bottom_navbar.dart';
 import 'package:book_app/screens/home.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Book App",
       debugShowCheckedModeBanner: false,
-      home: home_screen(),
+      home: bottom_navbar()
     );
   }
 }

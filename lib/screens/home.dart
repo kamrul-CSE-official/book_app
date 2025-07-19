@@ -14,21 +14,14 @@ class _home_screenState extends State<home_screen> {
       appBar: AppBar(
         title: Text(
           "Book App",
-          style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold
-          ),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.blue,
       ),
       body: Padding(
         padding: EdgeInsets.all(8.50),
-        child: Center(
-          child: Text(
-            "MD.Kamrul Hasan"
-          ),
-        ),
+        child: Center(child: Text("MD.Kamrul Hasan")),
       ),
-    );;
+    );
   }
 }
